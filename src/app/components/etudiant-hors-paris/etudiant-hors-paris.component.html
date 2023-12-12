@@ -1,0 +1,10 @@
+<div>
+  <img src="https://www.magequip.com/media/catalog/product/cache/42122a163ca782f0b4d8aced89ff69dd/6/6/662068v_4.jpg">
+    <h2>Étudiants hors de Paris</h2>
+    <ul>
+      <li *ngFor="let etudiant of etudiantsHorsParis">
+        {{ etudiant._nom }} {{ etudiant._prenoms }} - {{ etudiant._ville }}
+      </li>
+    </ul>
+  </div>
+  
